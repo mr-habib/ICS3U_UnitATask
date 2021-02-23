@@ -30,3 +30,14 @@ To accomplish this, you will need to:
   * ^ (power, so 2 ^ 3 should = 8) 
 
 I have included a .pyc file. This is a compiled python file. You can run it like a normal file to see what your code should do. 
+
+# Important
+Your output needs to be exactly in the following manner:
+```
+num + num = num
+```
+Notice all of the outputs in my .pyc.
+
+If you do not output exactly like this, you will not pass the autograder!
+
+Also, you will be marked on your variable naming conventions, neatness of code (ample spacing and such) and on providing comments where you think it necessary.
