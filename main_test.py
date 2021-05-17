@@ -1,4 +1,4 @@
-from main_solution import eval_math
+from main import eval_math
 from random import randint, choice
 
 def test_eval_math_simple_add():
