@@ -22,12 +22,12 @@ def test_eval_math_simple_pow():
 def test_eval_math_random_1():
     num1 = randint(0, 1000)
     num2 = randint(0, 1000)
-    list_of_operators = ['+', '-', '*', '/', '^']
+    list_of_operators = ['+', '-', '*', '/', '**']
     op = choice(list_of_operators)
     str_input = f"{num1} {op} {num2}"
-    if op == '^':
-        str_input = f"{num1} ^ {num2}"
     ans = eval(str_input)
+    if op == "**":
+        str_input = f"{num1} ^ {num2}"
     expected = f"{str_input} = {ans}"
     assert(eval_math(str_input) == expected)
 
